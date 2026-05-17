@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">final_assignment</string>
+    <string name="selected_image">Selected image</string>
+    <string name="list_image">Image</string>
+    <string name="save">Save</string>
+    <string name="edit_result_hint">Edit result here</string>
+</resources>

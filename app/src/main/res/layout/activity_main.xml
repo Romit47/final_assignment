@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- 1. Tap an item below to start -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Tap an item below to start"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#3F51B5" />
+
+        <!-- 2. Barcode Reader -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Barcode Reader"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <!-- 3. Barcode image -->
+        <ImageButton
+            android:id="@+id/imageButtonBarcode"
+            android:layout_width="match_parent"
+            android:layout_height="111dp"
+            android:layout_marginStart="77dp"
+            android:layout_marginEnd="77dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/barcode"
+            android:background="@null"
+            android:contentDescription="Barcode Reader" />
+
+        <!-- 4. Content Reader -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Content Reader"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <!-- 5. Content image -->
+        <ImageButton
+            android:id="@+id/imageButtonContent"
+            android:layout_width="match_parent"
+            android:layout_height="111dp"
+            android:layout_marginStart="77dp"
+            android:layout_marginEnd="77dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/content"
+            android:background="@null"
+            android:contentDescription="Content Reader" />
+
+        <!-- 6. Text Reader -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Text Reader"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <!-- 7. Text image -->
+        <ImageButton
+            android:id="@+id/imageButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="111dp"
+            android:layout_marginStart="77dp"
+            android:layout_marginEnd="77dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/text"
+            android:background="@null"
+            android:contentDescription="Text Reader" />
+
+        <!-- 8. List of Analysed Images button -->
+        <Button
+            android:id="@+id/buttonListAnalysed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:layout_marginStart="66dp"
+            android:layout_marginEnd="66dp"
+            android:layout_marginBottom="24dp"
+            android:text="List of Analysed Images"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</ScrollView>
